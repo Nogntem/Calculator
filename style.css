@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(90deg, rgba(60,115,19,1) 0%, rgba(31,176,222,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.Calculatrice{
+    position: absolute;
+    text-align: right;
+    margin: auto;
+    display: grid;
+    grid-row-gap: 10px;
+
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.Affichage{
+    background-color: #242424;
+    height: 75px;
+    border-radius: 5px;
+    color:white;
+}
+
+.Button{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+button{
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+}
